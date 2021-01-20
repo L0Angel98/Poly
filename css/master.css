@@ -1,0 +1,52 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  font-family: sans-serif, serif;
+}
+#contenedor{
+  width: 100%
+  margin: auto;
+  border: 1px solid black;
+}
+header{
+  background: black;
+  height: 70px;
+  width: 350px;
+}
+footer{
+  background: black;
+  color:white;
+}
+h1{
+  padding-top: 150px;
+  text-align: center;
+
+}
+
+p{
+  text-align: justify;
+}
+.img-centro {
+  margin: 10px auto 10px;
+  display: block;
+}
+
+.columna {
+  float: left;
+  width: 33%;
+  padding-right: 1px;
+}
+
+.fila::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+nav ul li {
+  float: left;
+  list-style: none;
+  margin: 50px;
+}
