@@ -2,18 +2,21 @@
   margin: 0px;
   padding: 0px;
 }
+::-webkit-scrollbar {
+    display: none;
+}
 body{
   font-family: sans-serif, serif;
 }
-#contenedor{
+#container{
   width: 100%
   margin: auto;
   border: 1px solid black;
 }
 header{
+  height: 1px;
   background: black;
-  height: 70px;
-  width: 350px;
+  float;
 }
 footer{
   background: black;
@@ -33,20 +36,38 @@ p{
   display: block;
 }
 
-.columna {
+.column {
   float: left;
   width: 33%;
   padding-right: 1px;
 }
 
-.fila::after {
+.row::after {
   content: "";
   clear: both;
   display: table;
 }
 
 nav ul li {
-  float: left;
+  float:left;
   list-style: none;
-  margin: 50px;
+  margin: 50px 0px -20px 10px;
+  background: black;
+  padding: 0px 150px 0px 0px;
+}
+
+footer div{
+  display: inline-block;
+  margin: 5px 150px 5px 10px;
+}
+
+footer div ul li{
+    list-style: none;
+}
+
+a{
+  outline: none;
+  text-decoration: none;
+  padding: 2px 1px 0;
+  color: white;
 }
