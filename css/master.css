@@ -23,24 +23,15 @@ footer{
 h1{
   padding-top: 30px;
   text-align: center;
-
-}
-#th{
-  padding-top: 25%;
-  color: white;
-  text-align: center;
-  font-size: 50px;
+  padding-bottom: 30px
 }
 
-#pheader{
-  margin:10px;
-  color:white;
-  text-align: center;
-  font-size: 30;
-}
 p{
   text-align: justify;
   padding-top: 15px;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-bottom: 15px;
 }
 .img-centro {
   margin: 10px auto 10px;
@@ -59,14 +50,26 @@ p{
   display: table;
 }
 
+#th{
+  padding-top: 25%;
+  color: white;
+  text-align: center;
+  font-size: 50px;
+}
 
-
+#pheader{
+  margin:10px;
+  color:white;
+  text-align: center;
+  font-size: 30;
+}
 
 header{
   margin: 0px;
   padding: 0px;
   width: 100%;
-  background-image: url('../images/headerImg/header5.jpg');
+  background-color: rgba(0, 0, 0, 0.5);
+  background-image: url('../images/headerImg/header1.jpg');
   background-repeat: no-repeat;
   height: 770px;
   background-position:center,center;
@@ -75,6 +78,7 @@ header{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  opacity: 0.7;
 }
 
 header nav ul li {
@@ -95,9 +99,19 @@ footer div ul li{
     list-style: none;
 }
 
+footer div ul{
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
 a{
   outline: none;
   text-decoration: none;
   padding: 2px 1px 0;
   color: white;
+}
+
+.Brands{
+  padding-left: 15%;
+  padding-right: 15%;
 }
