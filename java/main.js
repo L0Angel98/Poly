@@ -1,9 +1,9 @@
 var images = [];
-images[0] = "../images/headerImg/header1.jpg";
-images[1] = "../images/headerImg/header2.jpg";
-images[2] = "../images/headerImg/header3.jpg";
-images[3] = "../images/headerImg/header4.jpg";
-images[4] = "../images/headerImg/header5.jpg";
+images[0] = "images/headerImg/header1.jpg";
+images[1] = "images/headerImg/header2.jpg";
+images[2] = "images/headerImg/header3.jpg";
+images[3] = "images/headerImg/header4.jpg";
+images[4] = "images/headerImg/header5.jpg";
 
 var titles = [];
 
@@ -21,10 +21,27 @@ description[2] = "All life forms are metabolic processes, we use this processes 
 description[3] = "We are on the verge of a BioFab revolution that will fundamentally transform the way food, chemicals, advanced materials, medicine and fuel is created.";
 description[4] = "We are a BioFabrication Mexican company developing novel materials out of life itself. We relay in the building blocks of life to manufacture the next generation of materials.";
 
+var index = 0;
 
-var datos = document.getElementById("titles1");
-datos.innerHTML = `
-<h1 id= th>${titles[0]}</h1>
-<p id=pheader>${description[0]}</p>
-  `;
-//document.body.style.background = "url('../images/headerImg/header1.jpg')";
+
+function Changer(){
+  var data = document.getElementById("titles1");
+  data.innerHTML = `
+  <h1 id= th>${titles[index]}</h1>
+  <p id=pheader>${description[index]}</p>
+  <style>
+  header{
+    background-image: url(${images[index]});
+  }
+  </style>
+    `;
+  if(index<4){
+    index++;
+  }
+  else{
+  index=0;
+  }
+
+}
+
+setInterval(Changer,3000);
