@@ -21,9 +21,13 @@ footer{
   color:white;
 }
 h1{
-  padding-top: 30px;
+  padding: 60px;
   text-align: center;
-  padding-bottom: 30px
+  font-size: 50px;
+}
+
+#hastag{
+  margin: 100px;
 }
 
 p{
@@ -64,34 +68,85 @@ p{
   font-size: 30;
 }
 
+
+
 header{
   margin: 0px;
   padding: 0px;
   width: 100%;
   background-image: url('../images/headerImg/header1.jpg');
   background-repeat: no-repeat;
-  height: 770px;
+  height: 656px;
   background-position:center,center;
   background-attachment: fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-color: rgba(255, 0, 0, 0.5);
 }
 
+header:before {
+	content:'';
+	position: absolute;
+  top: 0;
+	bottom: 0px;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.6);
+}
 
-header nav ul li {
-
+#CompanyName{
   float:left;
-  list-style: none;
-  margin: 5px;
-  padding: 0px 150px 0px 0px;
+  margin-top:-40;
+  padding-top: 10px;
+  padding-left: 10%;
+  position: relative;
 }
 
 
+div #titles1{
+  position: relative;
+}
+
+#titles1 h1{
+  padding-bottom: 100px;
+}
+
+#titles p{
+  font-size: 200px;
+}
+
+header nav ul{
+  margin: 0;
+  list-style: none;
+  padding-left: 5%;
+  padding-top: 10px;
+  display: flex;
+  position: relative;
+}
+
+header nav ul li:hover{
+background: rgba(0,0,0,0.3);
+}
+
+header nav ul li{
+  display: block;
+  padding: 15px 20px;
+  color: white;
+  text-decoration: none;
+  width: auto;
+  text-shadow: black 0.1em 0.1em 0.2em
+
+}
+
+footer div h2{
+  border-left: 5px solid white;
+}
 footer div{
   display: inline-block;
   margin: 5px 150px 5px 10px;
+
 }
 
 footer div ul li{

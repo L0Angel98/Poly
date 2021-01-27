@@ -41,7 +41,6 @@ function Changer(){
   else{
   index=0;
   }
-
 }
 
 setInterval(Changer,3000);
