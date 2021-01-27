@@ -1,42 +1,45 @@
-
-*{
+* {
   margin: 0px;
   padding: 0px;
 }
 
 ::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 
-body{
+body {
   font-family: sans-serif, serif;
 }
-#container{
-  width: 100%
+
+#container {
+  width: 100%;
   margin: auto;
   border: 1px solid black;
 }
-footer{
+
+footer {
   background: black;
-  color:white;
+  color: white;
 }
-h1{
+
+h1 {
   padding: 60px;
   text-align: center;
   font-size: 50px;
 }
 
-#hastag{
+#hastag {
   margin: 100px;
 }
 
-p{
+p {
   text-align: justify;
   padding-top: 15px;
   padding-left: 15%;
   padding-right: 15%;
   padding-bottom: 15px;
 }
+
 .img-centro {
   margin: 10px auto 10px;
   display: block;
@@ -54,30 +57,28 @@ p{
   display: table;
 }
 
-#th{
+#th {
   padding-top: 25%;
   color: white;
   text-align: center;
   font-size: 50px;
 }
 
-#pheader{
-  margin:10px;
-  color:white;
+#pheader {
+  margin: 10px;
+  color: white;
   text-align: center;
   font-size: 30;
 }
 
-
-
-header{
+header {
   margin: 0px;
   padding: 0px;
   width: 100%;
-  background-image: url('../images/headerImg/header1.jpg');
+  background-image: url("../images/headerImg/header1.jpg");
   background-repeat: no-repeat;
   height: 656px;
-  background-position:center,center;
+  background-position: center,center;
   background-attachment: fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -87,37 +88,36 @@ header{
 }
 
 header:before {
-	content:'';
-	position: absolute;
+  content: '';
+  position: absolute;
   top: 0;
-	bottom: 0px;
-	left: 0;
-	right: 0;
-	background-color: rgba(0,0,0,0.6);
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
-#CompanyName{
-  float:left;
-  margin-top:-40;
+#CompanyName {
+  float: left;
+  margin-top: -40;
   padding-top: 10px;
   padding-left: 10%;
   position: relative;
 }
 
-
-div #titles1{
+div #titles1 {
   position: relative;
 }
 
-#titles1 h1{
+#titles1 h1 {
   padding-bottom: 100px;
 }
 
-#titles p{
+#titles p {
   font-size: 200px;
 }
 
-header nav ul{
+header nav ul {
   margin: 0;
   list-style: none;
   padding-left: 5%;
@@ -126,46 +126,45 @@ header nav ul{
   position: relative;
 }
 
-header nav ul li:hover{
-background: rgba(0,0,0,0.3);
+header nav ul li:hover {
+  background: rgba(0, 0, 0, 0.3);
 }
 
-header nav ul li{
+header nav ul li {
   display: block;
   padding: 15px 20px;
   color: white;
   text-decoration: none;
   width: auto;
-  text-shadow: black 0.1em 0.1em 0.2em
-
+  text-shadow: black 0.1em 0.1em 0.2em;
 }
 
-footer div h2{
+footer div h2 {
   border-left: 5px solid white;
 }
-footer div{
+
+footer div {
   display: inline-block;
   margin: 5px 150px 5px 10px;
-
 }
 
-footer div ul li{
-    list-style: none;
+footer div ul li {
+  list-style: none;
 }
 
-footer div ul{
+footer div ul {
   padding-top: 0px;
   margin-top: 0px;
 }
 
-a{
+a {
   outline: none;
   text-decoration: none;
   padding: 2px 1px 0;
   color: white;
 }
 
-.Brands{
+.Brands {
   padding-left: 15%;
   padding-right: 15%;
 }
