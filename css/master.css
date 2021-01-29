@@ -57,7 +57,6 @@ header {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  
 }
 
 #slider header:before {
@@ -83,16 +82,13 @@ div #titles1 {
   text-align: center;
   position: relative;
   display: grid;
-  grid-template-rows: repeat(2,1fr);
+  grid-template-rows: repeat(2, 1fr);
   color: white;
 }
 
-div #titles1 #pheader{
+div #titles1 #pheader {
   font-size: 1.7em;
 }
-
-
-
 
 header nav ul {
   margin: 0;
@@ -120,7 +116,7 @@ footer div h2 {
   border-left: 0.5em solid white;
 }
 
-footer{
+footer {
   display: grid;
   padding: 0.5em 0.5em;
   grid-template-columns: auto auto auto auto;
@@ -146,9 +142,10 @@ a {
   padding-left: 20%;
   padding-right: 15%;
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(3, 1fr);
 }
-.Brands img{
+
+.Brands img {
   width: 80%;
   height: 80%;
 }
