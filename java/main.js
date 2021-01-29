@@ -24,7 +24,7 @@ description[4] = "We are a BioFabrication Mexican company developing novel mater
 var index = 0;
 
 
-function Changer(){
+function Changer() {
   var data = document.getElementById("titles1");
   data.innerHTML = `
   <h1 id= th>${titles[index]}</h1>
@@ -35,12 +35,11 @@ function Changer(){
   }
   </style>
     `;
-  if(index<4){
+  if (index < 4) {
     index++;
-  }
-  else{
-  index=0;
+  } else {
+    index = 0;
   }
 }
 
-setInterval(Changer,3000);
+setInterval(Changer, 3000);
