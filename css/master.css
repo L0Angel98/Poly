@@ -13,7 +13,6 @@ body {
 
 #container {
   width: 100% margin: auto;
-  border: 0.1em solid black;
 }
 
 footer {
@@ -37,6 +36,7 @@ p {
   padding-left: 15%;
   padding-right: 15%;
   padding-bottom: 1em;
+  font-size: 1.7em;
 }
 
 .img-center {
@@ -50,16 +50,17 @@ header {
   width: 100%;
   background-image: url('../images/headerImg/header1.jpg');
   background-repeat: no-repeat;
-  height: 45.4em;
+  height: 39.85em;
   background-position: center, center;
   background-attachment: fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  position: relative;
 }
 
-#slider header:before {
+.slider header:before {
   content: '';
   position: absolute;
   top: 0;
@@ -78,7 +79,7 @@ header {
 }
 
 div #titles1 {
-  margin-top: 10em;
+  margin-top: 5em;
   text-align: center;
   position: relative;
   display: grid;
@@ -117,6 +118,7 @@ footer div h2 {
 }
 
 footer {
+  margin: 0;
   display: grid;
   padding: 0.5em 0.5em;
   grid-template-columns: auto auto auto auto;
